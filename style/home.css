@@ -1,0 +1,47 @@
+.block {
+	width: 428px;
+	height: 800px;
+	background: linear-gradient(#192241, #443B8E, #9639A8);
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.temp-block {
+	display: flex;
+	gap: 10px;
+	color: white;
+	font-size: 24px;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.temp {
+	font-size: 64px;
+	color: white;
+	font-weight: 700;
+}
+
+.wth {
+	color: white;
+	font-size: 24px;
+}
+
+.data-temp-block {
+	height: 200px;
+	width: 100%;
+	background: linear-gradient(-159deg,#3E2D8F 0%, #9D52AC 100%);
+	border-radius: 30px;
+}
+
+.current-data {
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+	margin: 20px 50px 20px 50px;
+}

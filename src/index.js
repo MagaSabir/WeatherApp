@@ -1,3 +1,3 @@
-import Counter from "../components/Counter.js";
+import Home from "../components/Home.js";
 
-customElements.define("counter-component", Counter);
+customElements.define("counter-component", Home);
